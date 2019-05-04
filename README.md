@@ -13,7 +13,7 @@ component and there will be exception.So in this case when the packages are diff
 and for this we use @ComponentScan. eg @ComponentScan("guru.springframework").
 
 @Configuration
-This is when the souce code is not fully exposed to us that is when we are using a jar and want to create a object for using the class method.
+Usually you are going to use the Java Configuration for beans of things that you are importing like Hibernate and data sources and things like that.So where you dont have the actual source code but Im using this as a configuration because spring really doesnt know the difference as to whether or not you have something coming in from a jar or if it's coming from a source control that you actually have control of.
 
 @Bean
 this is the instance
